@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body { /* Style untuk elemen <body> */
+    background: url(zombie.gif); 
+}
+
+.app { /* Style untuk kontainer utama aplikasi */
+    background: #913984c5; 
+    width: 100%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 10px 10px #000000bc;
+}
+
+.app h1 { /* Style untuk judul aplikasi */
+    font-size: 25px;
+    color: #21121f;
+    font-weight: 600;
+    border-bottom: 3px solid #020202;
+    padding-bottom: 30px;
+}
+
+.quiz { /* Style untuk kontainer quizz */
+    padding: 20px 0;
+}
+
+.quiz h2 { /* Style untuk judul pertanyaan quizz */
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+ 
+.btn { /* Style untuk button jawaban */
+    background: #fff;
+    color: #8f3082;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #913984;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) { /* Hover state untuk button jawaban */
+    background: #3d0535;
+    color: #fff;
+}
+
+#next-btn { /* Style untuk button "Lanjut" */
+    background: #3d0535;
+    color: #e2a5d9;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+.correct { /* Style untuk button jawaban yang benar */
+    background: #8e31de;
+}
+
+.incorrect { /* Style untuk button jawaban yang salah */
+    background: #191851;
+}
+
+#start-btn { /* Style untuk button "Mulai Kuis" */
+    background: #3d0535;
+    color: #e2a5d9;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+ul { /* Style untuk elemen daftar tak bernomor (ul) */
+    color: #fff;
+}
+li { /* Style untuk elemen daftar (li) */
+    font-family: 'poppins';
+}
+ul{
+    font-family: 'poppins;'
+}
+li{
+    font-family: 'poppins';
+}
